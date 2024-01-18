@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+/*font-family: 'Bebas Neue', sans-serif;
+font-family: 'Poppins', sans-serif;*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+* body {
+    font-family: 'Poppins', sans-serif;
+    ;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.header {
+    background: linear-gradient(rgba(36, 21, 32, 0.8),
+            rgba(37, 21, 35, 0.8)),
+        url(../imagenes/buenosairesfondo1.png.jpeg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px 0 0 0;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    font-size: 18px;
+}
+
+
+.menu label {
+    cursor: pointer;
+}
+
+.header-txt {
+    margin-top: 180px;
+    text-align: center;
+    padding: 0 150px;
+}
+
+.header-txt h1 {
+    font-size: 60px;
+    line-height: 1;
+    color: beige;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+p {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 11px 35px;
+    color: beige;
+    background: linear-gradient(90deg,
+            rgb(255, 143, 240) 0%,
+            rgb(239, 58, 255) 100%);
+    border: 2px solid;
+}
+
+.about {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.about-txt p {
+    color: black;
+}
+
+span {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: rgb(252, 129, 235);
+}
+
+h2 {
+    font-size: 35px;
+    color: rgb(255, 121, 226);
+    margin: 15px 0;
+    line-height: 1;
+}
+
+hr {
+    margin: auto;
+    border: 1px solid rgb(226, 126, 213);
+    max-width: 1200px;
+}
+
+.about-img {
+    flex-basis: 50%;
+}
+
+.about-img img {
+    border-radius: 15px;
+}
+
+.testimonial {
+    padding: 0px 0;
+    background: linear-gradient(rgba(36, 21, 32, 0.8),
+            rgba(37, 21, 35, 0.8)),
+        url(../imagenes/buenosairesfondo3.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.testimonial-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonial1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex-basis: calc(50% - 25px);
+    padding: 20px 0;
+    text-align: left;
+
+}
+
+.testimonial1 p {
+    font-size: 15px;
+}
+
+.information {
+    background-color: rgb(31, 21, 21);
+}
+
+.information-content {
+    display: flex;
+}
+
+.information-txt {
+    flex-basis: 50%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 80px 0 0 0;
+}
+
+.blog {
+    padding: 50px 0;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.blog-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.blog-1 {
+    flex-basis: calc(33.3% - 30px);
+    background-color: rgb(255, 121, 226);
+    border: 1px solid black;
+}
+
+.blog-1 img {
+    margin-bottom: 15px;
+}
+
+.blog-txt {
+    padding: 20px;
+}
+
+
+.contact {
+    padding: 100px 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)),
+        url(../imagenes/buenosairesfondo2.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contact-content {
+    text-align: center;
+}
+
+.footer {
+    padding: 100px 0;
+    background-color: black;
+
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link h3 {
+    font-size: 17px;
+    color: white;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.link a {
+    font-size: 17px;
+    color: white;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.link a:hover {
+    color: blueviolet;
+}
+
+
+
+.imgLogo {
+    width: 250px;
+    margin-top: 0;
+}
+
+.nav-link {
+    color: violet;
+}
+
+.hr2 {
+    width: 20%;
+}
+
+.hr22 {
+    width: 20%;
+}
+
+.testimonial p {
+    font-size: 20px;
+    text-align: left;
+    color: white;
+}
+
+h4 {
+    color: rgb(226, 126, 213);
+}
+
+.d-block {
+    width: 500px;
+    height: 500px;
+}
+
+.carousel-item {
+    border: 1px solid rgb(253, 24, 165);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.carousel {
+    margin: auto;
+    width: 800px;
+}
+
+.blog-1 h3 {
+    font-size: 20px;
+}
+
+.blog-1 img {
+    width: 400px;
+    height: 250px;
+}
+
+.testimonial2-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonial2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex-basis: calc(50% - 25px);
+    padding: 20px 0;
+    text-align: left;
+    background-color: white;
+}
+
+.testimonial2 p {
+    font-size: 20px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+}
+
+.testimonial2 {
+    padding: 0px 0;
+    background-color: white;
+}
+
+@media(max-width:991px) {
+
+    .header-txt {
+        margin-top: 45px;
+        text-align: center;
+        padding: 0;
+    }
+
+    .header-txt h1 {
+        font-size: 35px;
+    }
+
+    .header-txt p {
+        font-size: 14px;
+    }
+
+    .about {
+        padding: 30px;
+        text-align: center;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .testimonial {
+        text-align: center;
+        padding: 30px;
+    }
+
+    .testimonial-content {
+        flex-direction: column;
+    }
+
+    .testimonial1 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .testimonial1 h2 {
+        font-size: 24px;
+    }
+
+    .testimonial1 h4 {
+        font-size: 14px;
+    }
+
+    .testimonial1 p {
+        text-align: center;
+        font-size: 14px;
+    }
+
+
+    .testimonial1 img {
+
+        width: 500px;
+        height: 500px;
+    }
+
+    .testimonial2 {
+        text-align: center;
+        padding: 30px;
+    }
+
+    .testimonial2-content {
+        flex-direction: column;
+    }
+
+    .testimonial2 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .testimonial2 h2 {
+        font-size: 24px;
+    }
+
+    .testimonial2 h4 {
+        font-size: 14px;
+    }
+
+    .testimonial2 p {
+        text-align: center;
+        font-size: 14px;
+    }
+
+
+    .testimonial2 img {
+
+        width: 500px;
+        height: 500px;
+    }
+
+    .plans {
+        text-align: center;
+        padding: 30px;
+    }
+
+    .plans-content {
+        flex-direction: column;
+        margin-top: 5px;
+    }
+
+    .information {
+        align-items: center;
+        padding: 30px;
+    }
+
+    .information-content {
+        flex-direction: column;
+    }
+
+    .information-txt {
+        order: -2;
+        padding: 0;
+        margin: 30px 0;
+    }
+
+    .blog {
+        padding: 30px;
+    }
+
+    .blog-content {
+        flex-direction: column;
+
+
+    }
+
+    .blog-1 {
+        margin-bottom: 30px;
+    }
+
+    .blog-1 h3 {
+        font-size: 20px;
+    }
+
+    .blog-1 p {
+        font-size: 14px;
+    }
+
+    .contact {
+
+        padding: 100px 30px;
+
+
+    }
+
+    .footer {
+
+        padding: 30px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .carousel {
+        margin: auto;
+        width: 300px;
+    }
+
+    .about-txt p {
+        font-size: 14px;
+    }
+
+    .about-txt h2 {
+        font-size: 24px;
+    }
+
+}
+
+.navbar-toggler {
+    color: rgb(239, 58, 255);
+}
+
